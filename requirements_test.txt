@@ -4,11 +4,10 @@
 #
 #    pip-compile --output-file requirements_test.txt requirements_test.ini
 #
--e git+https://github.com/uktrade/directory-signature-auth.git@0.1.0#egg=sigauth
-configparser==3.5.0       # via flake8
+-e git+https://github.com/steadysupply/directory-signature-auth.git@7c5b118#egg=sigauth
 coverage==4.4.1           # via pytest-cov
-django==1.9.13
-enum34==1.1.6             # via flake8
+django==1.10.7
+djangorestframework==3.4.7
 flake8==3.0.4
 mccabe==0.5.3             # via flake8
 monotonic==1.2

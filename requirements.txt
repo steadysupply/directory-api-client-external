@@ -4,7 +4,8 @@
 #
 #    pip-compile --output-file requirements.txt requirements.ini
 #
--e git+https://github.com/uktrade/directory-signature-auth.git@0.1.0#egg=sigauth
-django==1.9.13
+-e git+https://github.com/steadysupply/directory-signature-auth.git@7c5b118#egg=sigauth
+django==1.10.7
+djangorestframework==3.4.7
 monotonic==1.2
 requests==2.11.1
